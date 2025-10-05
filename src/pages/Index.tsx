@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import HorizontalGallery from "@/components/HorizontalGallery";
 import AnimatedStats from "@/components/AnimatedStats";
 import Showcase from "@/components/Showcase";
+import PinnedShowcase from "@/components/PinnedShowcase";
 import ProcessTimeline from "@/components/ProcessTimeline";
 import InteractiveGrid from "@/components/InteractiveGrid";
 import ParallaxSection from "@/components/ParallaxSection";
@@ -20,7 +21,8 @@ const Index = () => {
       <HorizontalGallery />
       <AnimatedStats />
       <Showcase />
-      <ProcessTimeline />~
+      <PinnedShowcase />
+      <ProcessTimeline />
       <InteractiveGrid />
       <ParallaxSection />
       <Testimonials />
